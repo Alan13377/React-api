@@ -1,8 +1,9 @@
 import React from 'react'
+import "./app.scss"
 
 function Detalle({item}) {
   return (
-   <div>
+   <div class="card">
             <h2>City:{item.name}</h2>
             <p>State: {item.state}</p>
             <p>ID: {item._id}</p>
