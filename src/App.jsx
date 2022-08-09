@@ -30,6 +30,7 @@ function App() {
             <p>{citys.length}</p>
           }
           <Detalle item={item}/>
+          
           </div>
         )
        })
